@@ -1,16 +1,9 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Node : MonoBehaviour
+public class Container : MonoBehaviour
 {
-    [SerializeField]
-    public int xIndex;
-    [SerializeField]
-    public int yIndex;
-
-
     // Start is called before the first frame update
     void Start()
     {
